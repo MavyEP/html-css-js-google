@@ -4,9 +4,11 @@
   box-sizing: border-box;
 }
 
+/* !!!!!!!!!!!!! HEADER !!!!!!!!!!!!!! */
+
 header {
   background-color: gray;
-  height: 5vh;
+  height: 6.5vh;
   display: flex;
   justify-content: space-between;
 }
@@ -22,3 +24,23 @@ header .header_flex_left {
 header .header_flex_right {
   background-color: pink;
 }
+
+/* !!!!!!!!!!!!! HEADER !!!!!!!!!!!!!! */
+
+/* !!!!!!!!!!!!! MAIN !!!!!!!!!!!!!! */
+
+main {
+  background-color: yellow;
+  height: 80vh;
+}
+
+/* !!!!!!!!!!!!! MAIN !!!!!!!!!!!!!! */
+
+/* !!!!!!!!!!!!! FOOTER !!!!!!!!!!!!!! */
+
+footer {
+  background-color: gray;
+  height: 13.5vh;
+}
+
+/* !!!!!!!!!!!!! FOOTER !!!!!!!!!!!!!! */
