@@ -6,6 +6,8 @@
 
 /* !!!!!!!!!!!!! HEADER !!!!!!!!!!!!!! */
 
+
+
 .li_opacity_left {
   opacity: 0.75;
 }
@@ -24,7 +26,7 @@ header {
   height: 6.5vh;
   display: flex;
   justify-content: space-between;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 header div li {
@@ -33,10 +35,6 @@ header div li {
 
 header div li span {
   cursor: pointer;
-}
-
-header div li span:hover {
-  text-decoration: underline;
 }
 
 header .header_flex_left {
@@ -49,6 +47,39 @@ header .header_flex_right {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+header .header_flex_right .dropdown .dropdown_click_icon span{
+  font-size: 18px;
+}
+
+header .header_flex_right .log_in a {
+  text-decoration: none;
+  color: white;
+  margin: auto;
+  padding: 5px 10px;
+}
+
+header .header_flex_right .log_in  {
+  background-color: rgba(71, 129, 254, 1);
+  margin-right: 15px;
+  display: flex;
+}
+
+header div li span:hover {
+  text-decoration: underline;
+}
+
+header .header_flex_left li:hover {
+  opacity: 1;
+}
+
+header .header_flex_right li:hover , header .header_flex_right i:hover  {
+  opacity: 0.75;
+}
+
+header .header_flex_right .log_in:hover {
+  background-color: rgba(94, 145, 255, 1);
 }
 
 /* !!!!!!!!!!!!! HEADER !!!!!!!!!!!!!! */
