@@ -143,11 +143,36 @@ main .main_browser_container .input input:focus {
   outline: none;
 }
 
-main .google_inputs {
-  height: 50px;
-  width: 200px;
-  background-color: green;
+main .main_browser_container:hover {
+  box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
 }
+
+main .google_actions {
+  margin-top: 20px;
+  height: 50px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main .google_actions .left_buttom , main .google_actions .right_buttom {
+  background-color: #f2f2f2;
+  border: 1px solid #f6f9f9;
+  margin: 0 10px;
+  border-radius: 4px;
+  padding: 10px 17px;
+  font-size: 14px;
+  color: #5F6368;
+}
+
+main .google_actions .left_buttom:hover , main .google_actions .right_buttom:hover {
+      color: #222;
+  cursor: pointer;
+      border: 1px solid #c6c6c6;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
 
 /* !!!!!!!!!!!!! MAIN !!!!!!!!!!!!!! */
 
@@ -156,6 +181,29 @@ main .google_inputs {
 footer {
   background-color: gray;
   height: 13.5vh;
+  padding: 0 15px;
 }
 
+footer .privacy_popup {
+  background-color: pink;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .privacy_popup .left_info {
+  background-color: blue;
+  align-items: center;
+  display: flex;
+}
 /* !!!!!!!!!!!!! FOOTER !!!!!!!!!!!!!! */
+
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
+}
