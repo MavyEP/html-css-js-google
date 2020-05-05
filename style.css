@@ -3,3 +3,22 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+header {
+  background-color: gray;
+  height: 5vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+header div li {
+  display: inline-block;
+}
+
+header .header_flex_left {
+  background-color: lightgreen;
+}
+
+header .header_flex_right {
+  background-color: pink;
+}
