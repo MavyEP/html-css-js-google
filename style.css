@@ -6,23 +6,49 @@
 
 /* !!!!!!!!!!!!! HEADER !!!!!!!!!!!!!! */
 
+.li_opacity_left {
+  opacity: 0.75;
+}
+
+.li_padding_left {
+  padding-left: 15px;
+}
+
+.li_padding_right {
+  padding-right: 15px;
+}
+
+
+
 header {
-  background-color: gray;
   height: 6.5vh;
   display: flex;
   justify-content: space-between;
+  font-size: 13px;
 }
 
 header div li {
   display: inline-block;
 }
 
+header div li span {
+  cursor: pointer;
+}
+
+header div li span:hover {
+  text-decoration: underline;
+}
+
 header .header_flex_left {
-  background-color: lightgreen;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 header .header_flex_right {
-  background-color: pink;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* !!!!!!!!!!!!! HEADER !!!!!!!!!!!!!! */
