@@ -57,7 +57,7 @@ header .header_flex_right .log_in a {
   text-decoration: none;
   color: white;
   margin: auto;
-  padding: 5px 10px;
+  padding: 5px 15px;
 }
 
 header .header_flex_right .log_in  {
@@ -89,6 +89,24 @@ header .header_flex_right .log_in:hover {
 main {
   background-color: yellow;
   height: 80vh;
+}
+
+main .google_image {
+  height: 50px;
+  width: 200px;
+  background-color: red;
+}
+
+main .main_browser {
+  height: 50px;
+  width: 200px;
+  background-color: blue;
+}
+
+main .google_inputs {
+  height: 50px;
+  width: 200px;
+  background-color: green;
 }
 
 /* !!!!!!!!!!!!! MAIN !!!!!!!!!!!!!! */
