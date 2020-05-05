@@ -76,6 +76,7 @@ header .header_flex_left li:hover {
 
 header .header_flex_right li:hover , header .header_flex_right i:hover  {
   opacity: 0.75;
+  cursor: pointer;
 }
 
 header .header_flex_right .log_in:hover {
@@ -94,7 +95,7 @@ main {
 }
 
 main .google_image {
-  margin-top: calc((80vh / 100) * 20);
+  margin-top: calc((80vh / 100) * 15);
 }
 
 main .google_image img {
@@ -103,11 +104,43 @@ main .google_image img {
 }
 
 main .main_browser_container {
-  height: 50px;
+  margin-top: 20px;
+  height: 45px;
   width: 600px;
-  background-color: yellow;
   border: 1px solid #dfe1e5;
   border-radius: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+main .main_browser_container .mic_icons svg {
+  height: 24px;
+  width: 24px;
+}
+
+main .main_browser_container .mic_icons svg:hover {
+  cursor: pointer;
+}
+
+main .main_browser_container .search_icon i {
+  opacity: 0.5;
+}
+
+main .main_browser_container .input {
+  display: flex;
+  height: 30px;
+  width: 85%;
+}
+
+main .main_browser_container .input input {
+  width: 100%;
+  border: none;
+}
+
+main .main_browser_container .input input:focus {
+  outline: none;
 }
 
 main .google_inputs {
