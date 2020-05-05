@@ -88,14 +88,14 @@ header .header_flex_right .log_in:hover {
 /* !!!!!!!!!!!!! MAIN !!!!!!!!!!!!!! */
 
 main {
-  height: 80vh;
+  height: 77.5vh;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 main .google_image {
-  margin-top: calc((80vh / 100) * 15);
+  margin-top: calc((77.5vh / 100) * 22);
 }
 
 main .google_image img {
@@ -179,22 +179,65 @@ main .google_actions .left_buttom:hover , main .google_actions .right_buttom:hov
 /* !!!!!!!!!!!!! FOOTER !!!!!!!!!!!!!! */
 
 footer {
-  background-color: gray;
-  height: 13.5vh;
-  padding: 0 15px;
+  height: 16vh;
 }
 
 footer .privacy_popup {
-  background-color: pink;
   display: flex;
   justify-content: space-between;
+  padding: 10px 15px;
+  border-top: 1px solid #dfe1e5;
+  border-bottom: 1px solid #dfe1e5;
 }
 
 footer .privacy_popup .left_info {
-  background-color: blue;
   align-items: center;
   display: flex;
 }
+
+footer .privacy_popup .left_info  img {
+  height: 50px;
+}
+
+footer .privacy_popup .left_info  h2 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 15px;
+  letter-spacing: 0.5px;
+}
+
+footer .privacy_popup .right_actions {
+  align-items: center;
+  display: flex;
+}
+
+footer .privacy_popup .right_actions span:first-child {
+  font-size: 12px;
+  color: rgb(81, 133, 246);
+  margin-right: 15px;
+}
+
+footer .privacy_popup .right_actions span:last-child {
+  font-size: 12px;
+  color: white;
+  background-color: rgb(30, 93, 230);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,1);
+}
+
+footer .privacy_popup .right_actions span:last-child:hover , footer .privacy_popup .right_actions span:first-child:hover {
+  cursor: pointer;
+}
+
+footer .privacy_popup .right_actions span:first-child:hover {
+  text-decoration: underline;
+}
+
+footer .privacy_popup .right_actions span:last-child:hover {
+  background-color: rgb(81, 133, 246);
+}
+
 /* !!!!!!!!!!!!! FOOTER !!!!!!!!!!!!!! */
 
 
